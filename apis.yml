@@ -1,8 +1,15 @@
 aid: tejas-networks-india
 name: Tejas Networks India
-description: Tejas Networks India is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tejas Networks is a Bengaluru, India-based optical and data networking products company
+  that designs, develops and manufactures telecom networking equipment for communications
+  service providers, internet and cable operators, utilities, defence and government agencies
+  worldwide. Its portfolio spans optical transport (DWDM/OTN), packet transport, broadband
+  access (GPON/fiber) and wireless (4G/5G radio access) systems deployed across more than 75
+  countries. The company is publicly listed in India (NSE/BSE TEJASNET) and is majority owned
+  by the Tata Group; Battery Ventures was an early institutional investor. Tejas Networks is a
+  hardware and network-infrastructure vendor and does not currently publish a public developer
+  API, developer portal or SDK program.
 url: https://raw.githubusercontent.com/api-evangelist/tejas-networks-india/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +17,48 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Telecommunications
+- Networking Equipment
+- Optical Networking
+- Broadband
+- 5G
+- India
+image: https://www.tejasnetworks.com/wp-content/uploads/2024/01/cropped-Tejas-Logo.jpg
+common:
+- type: DomainSecurity
+  url: security/tejas-networks-india-domain-security.yml
+- type: Website
+  url: https://www.tejasnetworks.com/
+- type: PrivacyPolicy
+  url: https://www.tejasnetworks.com/privacy-policy
+- type: TermsOfService
+  url: https://www.tejasnetworks.com/terms-and-conditions
+- type: Support
+  url: https://www.tejasnetworks.com/contact-us
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
